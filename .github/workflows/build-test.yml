@@ -31,4 +31,4 @@ jobs:
           # args: --all-features
 
       - name: cargo build
-        run: cargo build --release --all-targets
+        run: cargo build --features "tls" --release --all-targets
